@@ -1,0 +1,263 @@
+body {
+    background-image: url("saha.jpg"); /* Arka plan resmi */
+    background-size: cover; 
+    background-position: center; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0ac76f; 
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #004726; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.header .logo {
+    width: 50px; 
+    height: auto;
+}
+
+.header h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333; 
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    color: #0ac76f; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.intro-text {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #d1d1d1;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.email-link {
+    color: #33cc99; 
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+/* Söylentiler Bölümü */
+.rumors {
+    margin: 20px 0;
+    background-color: rgba(10, 199, 111, 0.8);
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
+}
+
+.rumors h2 {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rumors ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rumors li {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff; 
+    display: flex;
+    align-items: center;
+}
+
+.rumors li:last-child {
+    border-bottom: none; 
+}
+
+.pointer {
+    width: 20px; 
+    height: 20px;
+    margin: 0 10px; 
+}
+
+.rumors li:hover {
+    background-color: rgba(10, 199, 111, 0.6); 
+    cursor: pointer;
+    transform: scale(1.01); /* Hover ile biraz büyüsün */
+    transition: all 0.2s ease; /* Yumuşak geçiş efekti */
+}
+
+
+/* Sezonun Öne Çıkan Transferleri Tablosu */
+.highlighted-transfers {
+    margin: 20px 0;
+}
+
+.highlighted-transfers h2 {
+    font-size: 24px;
+    color: #0ac76f; 
+}
+
+.highlighted-transfers table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.highlighted-transfers th, .highlighted-transfers td {
+    border: 1px solid #0ac76f; 
+    padding: 8px;
+    text-align: center;
+}
+
+.highlighted-transfers th {
+    background-color: #0ac76f; 
+    color: white;
+}
+
+.highlighted-transfers td {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.highlighted-transfers tr:hover {
+    background-color: #444444; 
+}
+
+.match-results {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 30px auto;
+    color: white;
+}
+
+.match-results h2 {
+    font-size: 28px;
+    color: #0ac76f; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.match {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.match .teams {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.match .team-name {
+    color: #0ac76f; 
+}
+
+.match .score {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.match .date {
+    font-size: 18px;
+    color: #d1d1d1;
+    font-style: italic;
+}
+
+.match:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transform: scale(1.02); 
+    transition: all 0.3s ease; 
+}
+
+/* Haberler Bölümü */
+.news-section {
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.news-section h2 {
+    font-size: 26px;
+    color: #0ac76f; 
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0ac76f; 
+    padding-bottom: 5px;
+}
+
+.news-section p {
+    font-size: 18px;
+    color: #d1d1d1; 
+    line-height: 1.8; 
+    margin-bottom: 15px;
+    text-align: justify; 
+}
+
+.news-section p:last-child {
+    margin-bottom: 0; 
+}
+
+.news-section p:hover {
+    color: #ffffff; 
+    transition: color 0.3s ease; /* Yumuşak geçiş */
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
